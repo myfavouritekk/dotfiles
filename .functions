@@ -244,3 +244,17 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# change directory and sync Finder window
+function sd() {
+    # change terminal directory
+    cd "$@" || return
+    # sync Finder window or open new one if not exists
+    osascript -e "tell application \"Finder\"
+        if front Finder window exists then
+            set target of front Finder window to (""\"$PWD\""" as POSIX file)
+        else
+            open (""\"$PWD\""" as POSIX file)
+        end if
+    end tell" > /dev/null
+}
