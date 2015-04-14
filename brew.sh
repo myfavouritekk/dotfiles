@@ -55,6 +55,7 @@ brew install gcc
 brew install gist
 brew install git
 brew install git-flow
+brew install git-lfs
 brew install gnutls
 brew install go
 brew install highlight
