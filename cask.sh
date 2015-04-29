@@ -20,3 +20,12 @@ brew cask install tower
 brew cask install transmit
 brew cask install vlc
 brew cask install wechat
+
+# Quick-look plugins for developers
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install betterzipql
+brew cask install qlimagesize
