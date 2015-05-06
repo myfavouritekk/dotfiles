@@ -72,6 +72,7 @@ brew install shellcheck
 brew install ssh-copy-id
 brew install terminal-notifier
 brew install thefuck
+brew install the_silver_searcher
 brew install vim
 brew install watch
 brew install z
