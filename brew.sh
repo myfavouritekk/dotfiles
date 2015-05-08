@@ -19,8 +19,6 @@ brew upgrade --all
 brew install coreutils
 sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
-# Install some other useful utilities like `sponge`.
-brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
@@ -44,7 +42,7 @@ brew install homebrew/dupes/screen
 # Install other useful binaries.
 brew install ack
 brew install autojump
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 brew install capnp
 brew install cheat
 brew install cloc
@@ -52,7 +50,6 @@ brew install cmake
 brew install curl
 brew install ffmpeg
 brew install gawk
-brew install gcc
 brew install gist
 brew install git
 brew install git-flow
