@@ -16,10 +16,8 @@ brew cask install seil
 brew cask install sourcetree
 brew cask install sublime-text
 brew cask install thunder
-brew cask install tower
 brew cask install transmit
 brew cask install vlc
-brew cask install wechat
 
 # Quick-look plugins for developers
 brew cask install qlcolorcode
