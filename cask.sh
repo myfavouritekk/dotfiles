@@ -2,6 +2,7 @@
 
 # Install Mac Applications using Homebrew Cask
 brew cask install alfred
+brew cask install atom
 brew cask install dropbox
 brew cask install eclipse-cpp
 brew cask install evernote
