@@ -17,7 +17,6 @@ brew cask install seil
 brew cask install sourcetree
 brew cask install sublime-text
 brew cask install thunder
-brew cask install transmit
 brew cask install vlc
 
 # Quick-look plugins for developers
