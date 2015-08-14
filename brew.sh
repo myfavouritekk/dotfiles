@@ -59,6 +59,7 @@ brew install go
 brew install highlight
 brew install hub
 brew install imagemagick --with-webp
+brew install jq
 brew install macvim
 brew install mplayer
 brew install pandoc
