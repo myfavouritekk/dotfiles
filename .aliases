@@ -167,4 +167,4 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # thefuck (https://github.com/nvbn/thefuck)
-eval "$(thefuck-alias)"
+eval "$(thefuck --alias)"
