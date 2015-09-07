@@ -62,6 +62,7 @@ brew install imagemagick --with-webp
 brew install jq
 brew install macvim
 brew install mplayer
+brew install nq
 brew install pandoc
 brew install parallel
 brew install python
