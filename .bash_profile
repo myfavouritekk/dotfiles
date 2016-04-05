@@ -26,13 +26,14 @@ for option in autocd globstar; do
 done;
 
 # Add tab completion for many Bash commands
-if which brew > /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
-	source "$(brew --prefix)/share/bash-completion/bash_completion";
+if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion.d/brew" ]; then
+	source "$(brew --prefix)/etc/bash_completion.d/brew";
 elif [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion;
 fi;
 
 # Enable tab completion for `g` by marking it as an alias for `git`
+[ -f /usr/local/etc/bash_completion.d/git-completion.bash ] && source "/usr/local/etc/bash_completion.d/git-completion.bash"
 if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
 	complete -o default -o nospace -F _git g;
 fi;
